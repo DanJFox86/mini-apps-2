@@ -1,0 +1,41 @@
+.searchContainer {
+  display: flex;
+}
+
+.page-buttons {
+  min-width: 300px;
+  border-top: 2px solid black;
+}
+
+.page {
+  background-color: lightblue;
+}
+
+.next {
+  margin-left: 200px;
+}
+
+.event {
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.pagination {
+  display: flex;
+  padding: 10px;
+  min-width: 300px;
+  border: 2px solid lightblue;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px;
+    border: 1px solid blue;
+    background-color: cyan;
+}
+.active {
+  border: 5px solid black;
+  padding: 10px;
+}
+
