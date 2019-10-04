@@ -31,6 +31,10 @@ class App extends Component {
 
   componentDidMount() {
     this.getData(this.state.cache, this.state.startDate, this.state.endDate);
+    setInterval(() => {
+      console.log(this.state.startDate);
+      console.log(this.state.endDate);
+    }, 4000);
   }
 
   liveOrCache() {
@@ -51,6 +55,9 @@ class App extends Component {
         labels.push(dataPoint[0]);
         data.push(dataPoint[1]);
       });
+    }
+    if(myChart) {
+      myChart.destroy();
     }
     var myChart = new Chart(ctx, {
       type: 'line',
