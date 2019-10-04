@@ -1,0 +1,40 @@
+.TopBar {
+  display: flex;
+}
+
+.scoreboard {
+  display: flex;
+  max-width: 619px;
+  min-height: 60px;
+  border: 1px solid black;
+}
+
+.score-container {
+  border-right: 1px solid black;
+}
+
+.score-top {
+  display: flex;
+}
+
+.score-first {
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  min-height: 30px;
+  min-width: 30px;
+}
+
+.score-second {
+  border-bottom: 1px solid black;
+  min-height: 30px;
+  min-width: 30px;
+}
+
+.row {
+  display: flex;
+}
+
+.pin {
+  min-height: 20px;
+  min-width: 20px;
+}
