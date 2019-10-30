@@ -67,19 +67,19 @@ class App extends Component {
           remainingPins={this.props.remainingPins}
               knockPins={this.knockPins} />
         <div className="pins">
-          <div className="row">
+          <div className="row 1">
             <Pin pin={pins[0]} />
           </div>
-          <div className="row">
+          <div className="row 2">
             <Pin pin={pins[1]} />
             <Pin pin={pins[2]} />
           </div>
-          <div className="row">
+          <div className="row 3">
             <Pin pin={pins[3]} />
             <Pin pin={pins[4]} />
             <Pin pin={pins[5]} />
           </div>
-          <div className="row">
+          <div className="row 4">
             <Pin pin={pins[6]} />
             <Pin pin={pins[7]} />
             <Pin pin={pins[8]} />

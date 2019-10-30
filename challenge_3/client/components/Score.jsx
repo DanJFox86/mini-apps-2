@@ -7,7 +7,7 @@ class Score extends Component {
   }
 
   render() {
-    let [first, second] = this.props.score;
+    let [first, second, score] = this.props.score;
     if (first === 10) {
       first = 'X';
       second = '';
